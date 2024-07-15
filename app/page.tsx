@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ToDoList from "./components/ToDoList";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
             Ajouter
           </button>
         </form>
+        <ToDoList />
       </div>
     </main>
   );
